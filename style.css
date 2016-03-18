@@ -1,0 +1,87 @@
+.comment-list, .comment-list ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}.comment-list li {
+    padding: 14px;
+    margin-top: 10px;
+    border: 1px solid #EEE;
+}
+.comment-list li.comment-level-odd{background:#F6F6F3;}
+.comment-list li.comment-level-even{background:#FFF;}
+.comment-list li.comment-by-author{background:#FFF9E8;}
+.comment-list li .comment-reply{text-align:right;font-size:.92857em;}
+.comment-meta a{color:#999;font-size:.92857em;}
+.comment-author{display:block;margin-bottom:3px;color:#444;}
+.comment-author .avatar{float:left;margin-right:10px;}
+.comment-author cite{font-weight:bold;font-style:normal;}
+.comment-list .respond{margin-top:15px;border-top:1px solid #EEE;}
+.respond .cancel-comment-reply{float:right;margin-top:15px;font-size:.92857em;}
+.comment-content a{border-bottom:1px solid #EEE;}
+.comment-content a:hover{border-bottom-color:transparent;}
+.page-navigator {
+  padding-left: 0;
+  margin: 1.5rem 0;
+  list-style: none;
+  color: #999999;
+  text-align: center;
+}
+.page-navigator:before,
+.page-navigator:after {
+  content: " ";
+  display: table;
+}
+.page-navigator:after {
+  clear: both;
+}
+.page-navigator > li {
+  display: inline-block;
+}
+.page-navigator > li > a,
+.page-navigator > li > span {
+  position: relative;
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  line-height: 1.2;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.page-navigator > li:last-child > a,
+.page-navigator > li:last-child > span {
+  margin-right: 0;
+}
+.page-navigator > li > a:hover,
+.page-navigator > li > span:hover,
+.page-navigator > li > a:focus,
+.page-navigator > li > span:focus {
+  background-color: #eeeeee;
+}
+.page-navigator > .current > a,
+.page-navigator > .current > span,
+.page-navigator > .current > a:hover,
+.page-navigator > .current > span:hover,
+.page-navigator > .current > a:focus,
+.page-navigator > .current > span:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #0e90d2;
+  border-color: #0e90d2;
+  cursor: default;
+}
+.page-navigator .prev a {
+  border-radius: 0;
+}
+.page-navigator .next a {
+  border-radius: 0;
+}
+.ttjxc-fixed {
+  max-height: 20px;
+}
+.ttjxc-tag {
+  padding-left: 3%;
+  max-width: 98%;
+}
