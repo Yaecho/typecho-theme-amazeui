@@ -1,5 +1,12 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this->need('header.php'); ?>
+<style type="text/css">
+	.ttjxc-post img{
+	  display: block;
+      max-width: 100%;
+      height: auto;
+	}
+</style>
 <div class="am-g am-g-fixed blog-g-fixed am-animation-slide-bottom">
   <div class="am-u-md-8">
     <section class="am-panel am-panel-default">
@@ -9,7 +16,7 @@
       </h3>
       <h4 class="am-article-meta blog-meta"><i class="am-icon-user"></i> <a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a> <i class="am-icon-clock-o"></i> <?php $this->date('Y-n-j'); ?> <i class="am-icon-folder-o"></i> <?php $this->category(','); ?> <i class="am-icon-comment-o"></i> <?php $this->commentsNum('%d'); ?> <i class="am-icon-bookmark-o"></i> <?php $this->tags(',', true, '无'); ?></h4>      
       <div class="am-g">
-        <div class="am-u-sm-12">
+        <div class="am-u-sm-12 ttjxc-post">
           <?php $this->content(); ?>
           <?php if (isset($this->fields->github) || isset($this->fields->baidu)): ?><h3>网络资源</h3><?php endif;?>
           <?php if (isset($this->fields->github)): ?><p>源码地址：<a href="<?php echo $this->fields->github;?>" target="_blank"><i class="am-icon-github am-icon-fw"></i>GitHub</a></p><?php endif; ?>
