@@ -1,7 +1,7 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this->need('header.php'); ?>
 <style type="text/css">
-	.ttjxc-post img{
+	.ttjxc-post img,.ttjxc-post video{
 	  display: block;
       max-width: 100%;
       height: auto;
