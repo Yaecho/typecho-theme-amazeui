@@ -78,7 +78,7 @@
 </head>
 <body class="main">
 <header class="am-topbar am-topbar-fixed-top">
- <div class="am-container">
+ <div class="">
   <h1 class="am-topbar-brand">
     <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
   </h1>
