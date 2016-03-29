@@ -9,7 +9,7 @@
 <footer class="blog-footer">
   <p><br>
     <small><i class="am-icon-copyright"></i> <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>|
-    由 <a href="http://typecho.org/">Typecho</a> 强力驱动|Theme By Amaze UI && <a href="https://www.ttjxc.cn">TTjxc</a></small>
+    由 <a href="http://typecho.org/">Typecho</a> 强力驱动|Theme By Amaze UI && <a href="http://www.ttjxc.cn">TTjxc</a></small>
 
   </p>
   <small><?php $this->options->tongji();?></small>
